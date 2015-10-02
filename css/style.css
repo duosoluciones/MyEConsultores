@@ -102,6 +102,7 @@ ul {
 }
 #section_header h2 {
 	color: #555;
+	font-size: 3em;
 	text-shadow: 1px 1px #fff;
 }
 #welcome p {
@@ -159,19 +160,19 @@ ul {
 	color: #555;
 	border: 1px solid #006e2e;
 }
-#clients {
+#personal {
 	padding: 30px 0;
 }
-#clients .img-responsive {
+#personal .img-responsive {
 	margin: 0 auto;
 }
-#clients p {
+#personal p {
 	margin-bottom: 20px;
 }
-#clients img {
+#personal img {
 	opacity: 0.4;
 }
-#clients img:hover {
+#personal img:hover {
 	opacity: 1;
 }
 #about_section_1 {
@@ -198,12 +199,17 @@ ul {
 #footerwrap {
 	background-color: #b6e026;
 	padding: 40px 0 30px 0;
-	text-align: center;
+	text-align: left;
 	border-top: 1px solid #e6e6e6;
+
 }
 #footerwrap span.copyright {
 	color: #555;
 	font-size: 16px;
+	font-weight: bold;
+}
+#duo{
+	color:red;
 }
 #footerwrap span.copyright a {
 	color: #555;
