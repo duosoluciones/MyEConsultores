@@ -213,11 +213,11 @@ ul {
 }
 #footerwrap span.copyright a {
 	color: #555;
-	border-bottom: 1px dotted;
+/*	border-bottom: 1px dotted;*/
 }
 #footerwrap span.copyright a:hover {
 	color: #006e2e;
-	text-decoration: none;
+	text-decoration: underline black;
 }
 ul.social-buttons {
 	margin: 0;
@@ -277,15 +277,15 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .caption {
 	width: 60%;
 	position: absolute;
-	top: 35%;
+	top: 20%;
 	left: 20%;
 	text-align: center;
 }
 .caption h1 {
 	color: #444;
-	font-size: 46px;
-	font-weight: 500;
-	letter-spacing: -1px;
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: -2px;
 }
 .caption h1 span {
 	color: #b6e026;
@@ -293,7 +293,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .caption p {
 	color: #444;
 	line-height: 1.5em;
-	font-size: 1.3em;
+	font-size: 1.7em;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -442,7 +442,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color: #b6e026;
 }
 .contact p {
-	padding: 15px 0;
+	padding: 10px 0;
+	font-size: 1.3em;
+	font-weight: 400;
 }
 .contact p span {
 	color: #999;
@@ -460,6 +462,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 .contact .btn:hover, .contact .btn:focus {
 	background-color: #b6e026;
 	outline: 0px;
+}
+
+.contact h3{
+	font-size: 1.8em;
 }
 .form_details input[type="text"], .form_details textarea {
 	padding: 10px;
