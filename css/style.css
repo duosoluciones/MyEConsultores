@@ -221,7 +221,7 @@ ul {
 	/*border-bottom: 1px dotted;*/
 }
 
-#footerwrap span.copyright a:hover {
+#footerwrap span.copyright a:hover{
 	text-decoration: none;
 	color: #888;
 }
@@ -233,9 +233,11 @@ ul.social-buttons li a {
 	outline: 0;
 	color: #555;
 }
+/*
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	color: #006e2e;
 }
+*/
 .slider {
 	position: relative;
 }
@@ -652,4 +654,16 @@ address {
 }
 #footerwrap span.copyright a:hover span.logo-duo {
     color: hsla(7, 86%, 54%, 0.52);
+}
+ul.social-buttons li a:hover i.fa.fa-twitter{
+	color: #55ACEE;
+}
+ul.social-buttons li a:hover i.fa.fa-facebook{
+	color: #43609C;
+}
+ul.social-buttons li a:hover i.fa.fa-google-plus{
+	color: #D73D32;
+}
+ul.social-buttons li a:hover i.fa.fa-linkedin{
+	color: #1C87BD;
 }
