@@ -13,31 +13,34 @@
 <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
 <!-- Custom CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 <script src="js/jquery.min.js"></script>
+
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 <script>
-var myCenter=new google.maps.LatLng(-34.909860,-56.179830);
-var marker;
-function initialize()
-{
-var mapProp = {
-  center:myCenter,
-  zoom:17,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker=new google.maps.Marker({
-  position:myCenter,
-  animation:google.maps.Animation.BOUNCE
-  });
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
+	var myCenter=new google.maps.LatLng(-34.909860,-56.179830);
+	var marker;
+	function initialize()
+	{
+	var mapProp = {
+	  center:myCenter,
+	  zoom:17,
+	  mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+	
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	
+	var marker=new google.maps.Marker({
+	  position:myCenter,
+	  animation:google.maps.Animation.BOUNCE
+	  });
+	
+	marker.setMap(map);
+	}
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 </head>
@@ -91,13 +94,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <div id="footerwrap">
   <div class="container">
     <div class="row">
-                <div class="col-md-8"><span class="copyright">Copyright &copy; 2015 M&E Consultores.</br>Design by <a href="http://www.duosoluciones.com.uy" rel="nofollow" ><font color="red">Duo</font><font color="black"> Soluciones</font></a></span> </div>
-        <!-- <ul class="list-inline social-buttons">
+      <div class="col-xs-6 text-left"><span class="copyright">Copyright &copy; 2015 M&E Consultores.</br>Design by <a class="duo" href="http://www.duosoluciones.com.uy" target="_blank" rel="nofollow" ><span class="logo-duo">duo</span> soluciones</a></span> </div>
+      <div class="col-xs-6 text-right">
+        <ul class="list-inline social-buttons">
           <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
           <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
           <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
           <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
-        </ul> -->
+        </ul>
       </div>
     </div>
   </div>
